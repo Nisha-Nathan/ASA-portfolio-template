@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Template Repository
-      link: "https://github.com/61040-fa23/vitepress-template"
+      link: "https://github.com/61040-fa24/vitepress-template"
     - theme: alt
       text: Example Site
-      link: "https://61040-fa23.github.io/portfolio-adamjanicki2/"
+      link: "https://61040-fa24.github.io/portfolio-dhua/"
 
 features:
   - title: Blogs
