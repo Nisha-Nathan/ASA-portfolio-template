@@ -15,7 +15,8 @@ You will have to install [Node.js](https://nodejs.org/en/) **v18** to use this t
 
 ## Setup Guide
 
-1. Create your repo. We'll be using Github Classroom, so visit the [assignment link](https://classroom.github.com/assignment-invitations/a8bb029c7738241e2e2fb4156736be00/status) to create your repo. _Note: you will receive an email saying that a workflow run was not successful. You can ignore this; we will fix this by completing the rest of the setup_ :smile:
+1. Log in to your GitHub account or create one. Create your repo using this Vitepress Template repo as a template. ![Use as template example](assets/images/use-this-template.PNG)
+2. Be sure to name your repo `portfolio-<some-variation-of-your-preferred-name>`. For example, if my name is Dana Hua, I could name the repo `portfolio-dana` or `portfolio-dhua`. ![Create new repo](assets/images/create-new-repo.PNG)
 2. Clone your new repo to your local machine.
 3. `cd` into your own repo, and then run `npm install` to install the dependencies. _Make sure you've correctly installed Node v18 before doing this step._
 4. Run `npm run docs:dev` to start the development server. You should see a message with the `localhost` path where it is deployed; check it to make sure you can see your site.
@@ -25,6 +26,6 @@ You will have to install [Node.js](https://nodejs.org/en/) **v18** to use this t
    ![Base path example](assets/images/base-url.png)
 7. Go to the settings tab in your repo, and scroll down to the **Pages** section on the left sidebar. Then, under the **Source** dropdown, click **Github Actions**.
    ![Actions config](assets/images/gh-actions.png)
-8. Add and commit all your files, then push to the `main` branch. You should see your site at `https://61040-fa24.github.io/<your-repo-name>`, e.g. [https://61040-fa24.github.io/portfolio-dhua](https://61040-fa24.github.io/portfolio-dhua) _(It's possible that you're site might initially load with no CSS applied. If this happens, just give it a few minutes then refresh the page.)_
+8. Add and commit all your files, then push to the `main` branch. You should see your site at `https://<your-github-username>.github.io/<your-repo-name>/`, e.g. [https://huadana1.github.io/portfolio-dhua/](https://huadana1.github.io/portfolio-dhua/) _(It's possible that your site might initially load with no CSS applied. If this happens, just give it a few minutes then refresh the page.)_
 
 If you have trouble with any of these steps, check through the guide to make sure you didn't skip any steps, and then check Discourse or attend studio hours so a TA can help you out :smile:
