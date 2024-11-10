@@ -5,7 +5,7 @@ export default defineConfig({
   title: "TODO: add your title here",
   description: "Personal website ",
   // TODO: add your base here; this should be your repo name!
-  base: "/asa-portfolio-site/",
+  base: "/<REPO_NAME>/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
